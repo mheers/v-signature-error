@@ -6008,10 +6008,10 @@ pbkdf2@^3.0.3:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-perfect-freehand@^0.4.1:
-  version "0.4.91"
-  resolved "https://registry.yarnpkg.com/perfect-freehand/-/perfect-freehand-0.4.91.tgz#f2992d33b96bb8337cc9a082ab0841e5c59ffd90"
-  integrity sha512-nWCo3+d0mn20+UiambCz+GEfbYkWAUH4tdH/qVlz/lOBR6AcTuXOUJUvX4Qxj+aBqxJCx7T9nlORB6diO3NyMw==
+perfect-freehand@^1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/perfect-freehand/-/perfect-freehand-1.0.16.tgz#38575ef946ff513b9c94057c763cac003b504020"
+  integrity sha512-D4+avUeR8CHSl2vaPbPYX/dNpSMRYO3VOFp7qSSc+LRkSgzQbLATVnXosy7VxtsSHEh1C5t8K8sfmo0zCVnfWQ==
 
 performance-now@^2.1.0:
   version "2.1.0"
@@ -7986,13 +7986,13 @@ uuid@^3.3.2, uuid@^3.4.0:
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
-v-perfect-signature@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/v-perfect-signature/-/v-perfect-signature-1.0.0.tgz#17a74f2b61d7d5bb265ced373922731273a7e776"
-  integrity sha512-d+YMxz5oMmG/N5JxQvSzbYXgCEOu/pMUh3wLVz+ZQJGKVPHH64yMI4UdEsgnPiazz74fbfUkFk83bMNoRAsQzQ==
+v-perfect-signature@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/v-perfect-signature/-/v-perfect-signature-1.1.2.tgz#4aa53f41c2f70c255937ea9e52961b51c0e19f37"
+  integrity sha512-SufkaZMwnWkP5QbRuM5YkEWfDxyykQBWWgaWCwCCGemGp9vCHoWVFLxMHtoicHZ0BquNWY05ASspNQXazBRvSQ==
   dependencies:
-    perfect-freehand "^0.4.1"
-    vue-demi "^0.11.2"
+    perfect-freehand "^1.0.16"
+    vue-demi "^0.12.1"
 
 validate-npm-package-license@^3.0.1:
   version "3.0.4"
@@ -8031,10 +8031,10 @@ vue-class-component@^7.2.3:
   resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-7.2.6.tgz#8471e037b8e4762f5a464686e19e5afc708502e4"
   integrity sha512-+eaQXVrAm/LldalI272PpDe3+i4mPis0ORiMYxF6Ae4hyuCh15W8Idet7wPUEs4N4YptgFHGys4UrgNQOMyO6w==
 
-vue-demi@^0.11.2:
-  version "0.11.4"
-  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.11.4.tgz#6101992fe4724cf5634018a16e953f3052e94e2a"
-  integrity sha512-/3xFwzSykLW2HiiLie43a+FFgNOcokbBJ+fzvFXd0r2T8MYohqvphUyDQ8lbAwzQ3Dlcrb1c9ykifGkhSIAk6A==
+vue-demi@^0.12.1:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.12.1.tgz#f7e18efbecffd11ab069d1472d7a06e319b4174c"
+  integrity sha512-QL3ny+wX8c6Xm1/EZylbgzdoDolye+VpCXRhI2hug9dJTP3OUJ3lmiKN3CsVV3mOJKwFi0nsstbgob0vG7aoIw==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"

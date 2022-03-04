@@ -10,10 +10,9 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-import VPerfectSignature, { StrokeOptions } from 'v-perfect-signature'
+import VPerfectSignature from 'v-perfect-signature'
 
-export default Vue.extend({
+export default {
   props: {
     value: {
       type: Object,
@@ -31,7 +30,7 @@ export default Vue.extend({
       thinning: 0.75,
       smoothing: 0.5,
       streamline: 0.5,
-    } as StrokeOptions,
+    },
   }),
   watch: {
     value: {
@@ -74,7 +73,7 @@ export default Vue.extend({
       this.$emit('input', { data, dataURL })
     },
   },
-})
+}
 </script>
 
 <style scoped>
